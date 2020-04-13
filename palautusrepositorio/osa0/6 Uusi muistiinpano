@@ -1,11 +1,11 @@
 note over selain
-Käyttäjä painaa nappia ja lähettää tiedon.
+Käyttäjä submitoi muistiinpanon.
 Selain estää POST-pyynnön ja integroi
-uuden tiedon olemassaolevalle sivulle,
+uuden tiedon olemassaolevalle sivulle
 luoden ensiksi uuden olion note, jolla
 on sisältö ja päivämäärä. Se uusi olio
 lisätään muistiinpanojen taulukkoon notes
-ja taulukko uudelleen uudelleen.
+ja taulukko renderöidään uudelleen.
 end note
 
 selain->palvelin: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa Content-type: application/joson content: "un homme averti" date: "2019-12-04"
