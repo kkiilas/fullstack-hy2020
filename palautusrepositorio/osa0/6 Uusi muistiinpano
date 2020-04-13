@@ -1,5 +1,5 @@
 note over selain
-Käyttäjä painaa nappia ja lähettää tiedon.
+Käyttäjä submitoi muistiinpanon.
 Selain estää POST-pyynnön ja integroi
 uuden tiedon olemassaolevalle sivulle
 luoden ensiksi uuden olion note, jolla
