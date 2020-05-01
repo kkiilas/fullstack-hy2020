@@ -61,7 +61,7 @@ const App = () => {
   const handleFilterChange = (event) => setFilter(event.target.value.toLowerCase())
 
   const handleDeleteClick = (event) => {
-    const id = Number(event.target.value)
+    const id = event.target.value
     const person = persons.find(p => p.id === id)
     if (window.confirm(`Remove ${person.name} ?`)) {
       personService
